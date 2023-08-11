@@ -1,0 +1,83 @@
+
+    /* Card css */
+.card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+    /* products CSs */
+
+.products{
+    padding: 2rem;
+    /* margin: auto auto; */
+    width: 300px;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    border-radius: 5%;
+    box-shadow: 0.233px 0.223px 5px 0.1px black;
+}
+
+
+
+    /* products items */
+
+    .product-Item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 300px;
+        background-color: cyan;
+        padding: 1rem;
+        border-radius: 15px
+        
+    }
+
+    .item-desc h2{
+        color: red;
+    }
+
+
+    /* product date */
+
+    .product_date{
+        background-color: black;
+        width: 80px;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    /* New product css */
+
+    .newProduct{
+        margin: 20px auto;
+        width: 400px;
+        background-color: blueviolet;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    /* new product form  */
+
+    .product_form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+    }
+
+    .form-item{
+        color: white;
+        font-size: 20px;
+    }
