@@ -1,7 +1,7 @@
-import React from 'react'
-import logo from '../assets/Logo.svg'
-import {Link} from 'react-router-dom'
+import React from 'react';
 import { toast } from 'react-hot-toast';
+import { Link } from 'react-router-dom';
+import logo from '../assets/Logo.svg';
 
 const Navbar = (props) => {
 
